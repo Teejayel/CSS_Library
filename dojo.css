@@ -1,0 +1,121 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Stronger Reset */
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    list-style: none;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* container that will center content within */
+.container {
+    width: 767px;
+    padding: 18px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Neat account button */
+#account {
+    height: 34px;
+    width: 172px;
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(70, 128, 236);
+    font-size: 17px;
+    margin: 6px 50px;
+    box-shadow: 3px 3px 1px black;
+}
+
+/* Flexible Columns */
+.row {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0 -25px;
+}
+
+.col, .col-2, .col-3 {
+    background-color: green;
+    height: 100px;
+    margin: 17px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+/* Flexible Navbar */
+.navbar {
+    background-color: black;
+    color: white;
+    flex: 1 0 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Keeps navbar centered and same width as main page*/
+.filler {
+    height: 60px;
+    flex: 1;
+}
+
+.title {
+    width: 130px;
+    font-size: 34px;
+}
+
+.nav-links {
+    width: 515px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-links li {
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+.sign-out {
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(6, 159, 197);
+    border-radius: 1px;
+}
